@@ -1,0 +1,35 @@
+3.
+
+4.
+arr = [];
+arr.length = 0
+arr.splice(0, arr.length)
+
+6.
+const sum = abc.reduce((accumulator, current) => {
+    return accumulator + current;
+});
+
+7.
+Yesterdays date :
+	var date = new Date();
+	date.setDate(date.getDate() - 1);
+Todays date : 
+	var date = new Date();
+	date ;
+Tomorrows date :
+	var date = new Date();
+	date.setDate(date.getDate() + 1);
+Next year's same date :
+	var d = new Date();
+	d.setFullYear(2022);
+
+8.
+I.	var arr = array1.concat(array2);
+	console.log(arr);
+II.	var arr = array2.concat(array1);
+	console.log(arr);
+III.	console.log(array1) is [“a”, “b”, “c”] and console.log(array3) is [“a”, “b”, “c”, "f"]
+
+9.
+	cars.sort((a, b) => b.speed - a.speed);
